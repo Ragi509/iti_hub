@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Local data & SQLite databases
+*.sqlite
+*.db
+storesync.db
+
+# Build outputs & cache
+dist/
+build/
+.vite/
+.cache/
+
+# Environment & Credentials
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
